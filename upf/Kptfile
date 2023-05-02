@@ -8,6 +8,5 @@ info:
   description: example upf blueprint package 
 pipeline:
   mutators:
-  - europe-docker.pkg.dev/srlinux/eu.gcr.io/interface-fn:latest
-  - europe-docker.pkg.dev/srlinux/eu.gcr.io/interface-fn:latest
-
+    - image: europe-docker.pkg.dev/srlinux/eu.gcr.io/interface-fn:latest
+    - image: europe-docker.pkg.dev/srlinux/eu.gcr.io/interface-fn:latest
